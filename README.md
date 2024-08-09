@@ -30,6 +30,10 @@ Each pendulum has its own worker, composed of
 
 The workers listen on port 300X.
 
+The UI is available at http://localhost:4200/.
+
+### How to use the GUI
+
 1. You can move the pendulums by dragging them
 2. Click on a pendulum to edit its 'mass'
 3. Once you click START, you can no longer modify anything
