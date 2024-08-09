@@ -7,16 +7,12 @@ export type Coords = {
   y: number
 }
 
-export type Pendulum = Id & Coords & {
+export type PendulumConfig = Id & Coords & {
   mass: number
   stringLength: number
   offsetAngle: number
 }
 
-export type SaveConfigCommand = {
-  config: Pendulum[]
-}
-
-export type SimulationState = {
-  state: Array<Id & Coords>
+export type PendulumPosition = Id & {
+  angle: number
 }
